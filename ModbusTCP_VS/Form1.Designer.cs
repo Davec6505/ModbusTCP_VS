@@ -84,6 +84,7 @@ namespace ModbusTCP_VS
             this.tbReg1 = new System.Windows.Forms.TextBox();
             this.tbReg0 = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
             this.tbResponse = new System.Windows.Forms.TextBox();
             this.tbStringB = new System.Windows.Forms.TextBox();
@@ -147,8 +148,6 @@ namespace ModbusTCP_VS
             this.tbVarB = new System.Windows.Forms.TextBox();
             this.ckbVarA = new System.Windows.Forms.CheckBox();
             this.tbVarA = new System.Windows.Forms.TextBox();
-            this.btnStrA = new System.Windows.Forms.Button();
-            this.btnStrB = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -159,7 +158,6 @@ namespace ModbusTCP_VS
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.LightGray;
             this.groupBox1.Controls.Add(this.btnDisconnect);
             this.groupBox1.Controls.Add(this.btnConnect);
@@ -169,7 +167,7 @@ namespace ModbusTCP_VS
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(897, 13);
+            this.groupBox1.Location = new System.Drawing.Point(892, 13);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(348, 200);
             this.groupBox1.TabIndex = 0;
@@ -243,7 +241,6 @@ namespace ModbusTCP_VS
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.BackColor = System.Drawing.Color.LightGray;
             this.groupBox2.Controls.Add(this.textBox7);
             this.groupBox2.Controls.Add(this.label7);
@@ -255,7 +252,7 @@ namespace ModbusTCP_VS
             this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
-            this.groupBox2.Location = new System.Drawing.Point(897, 219);
+            this.groupBox2.Location = new System.Drawing.Point(892, 228);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(348, 187);
             this.groupBox2.TabIndex = 6;
@@ -340,7 +337,6 @@ namespace ModbusTCP_VS
             // 
             // groupBox3
             // 
-            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.BackColor = System.Drawing.Color.LightGray;
             this.groupBox3.Controls.Add(this.textBox8);
             this.groupBox3.Controls.Add(this.label8);
@@ -352,7 +348,7 @@ namespace ModbusTCP_VS
             this.groupBox3.Controls.Add(this.textBox11);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Black;
-            this.groupBox3.Location = new System.Drawing.Point(897, 414);
+            this.groupBox3.Location = new System.Drawing.Point(892, 421);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(348, 192);
             this.groupBox3.TabIndex = 7;
@@ -736,8 +732,7 @@ namespace ModbusTCP_VS
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.Color.Gainsboro;
-            this.groupBox5.Controls.Add(this.btnStrB);
-            this.groupBox5.Controls.Add(this.btnStrA);
+            this.groupBox5.Controls.Add(this.button1);
             this.groupBox5.Controls.Add(this.label27);
             this.groupBox5.Controls.Add(this.tbResponse);
             this.groupBox5.Controls.Add(this.tbStringB);
@@ -745,19 +740,28 @@ namespace ModbusTCP_VS
             this.groupBox5.Controls.Add(this.label26);
             this.groupBox5.Controls.Add(this.label25);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(13, 612);
+            this.groupBox5.Location = new System.Drawing.Point(13, 656);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(1232, 185);
+            this.groupBox5.Size = new System.Drawing.Size(1232, 288);
             this.groupBox5.TabIndex = 9;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Strings";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(28, 55);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(229, 40);
+            this.button1.TabIndex = 38;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
             this.label27.ForeColor = System.Drawing.Color.Black;
             this.label27.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label27.Location = new System.Drawing.Point(74, 102);
+            this.label27.Location = new System.Drawing.Point(74, 195);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(98, 40);
             this.label27.TabIndex = 37;
@@ -768,7 +772,7 @@ namespace ModbusTCP_VS
             // 
             this.tbResponse.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbResponse.Location = new System.Drawing.Point(203, 92);
+            this.tbResponse.Location = new System.Drawing.Point(203, 195);
             this.tbResponse.Multiline = true;
             this.tbResponse.Name = "tbResponse";
             this.tbResponse.Size = new System.Drawing.Size(1012, 87);
@@ -778,7 +782,7 @@ namespace ModbusTCP_VS
             // 
             this.tbStringB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbStringB.Location = new System.Drawing.Point(203, 59);
+            this.tbStringB.Location = new System.Drawing.Point(203, 101);
             this.tbStringB.Name = "tbStringB";
             this.tbStringB.Size = new System.Drawing.Size(1012, 27);
             this.tbStringB.TabIndex = 35;
@@ -787,7 +791,7 @@ namespace ModbusTCP_VS
             // 
             this.tbStringA.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbStringA.Location = new System.Drawing.Point(203, 26);
+            this.tbStringA.Location = new System.Drawing.Point(203, 22);
             this.tbStringA.Name = "tbStringA";
             this.tbStringA.Size = new System.Drawing.Size(1012, 27);
             this.tbStringA.TabIndex = 34;
@@ -796,7 +800,7 @@ namespace ModbusTCP_VS
             // 
             this.label26.AutoSize = true;
             this.label26.ForeColor = System.Drawing.Color.Black;
-            this.label26.Location = new System.Drawing.Point(88, 63);
+            this.label26.Location = new System.Drawing.Point(88, 104);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(84, 20);
             this.label26.TabIndex = 33;
@@ -806,7 +810,7 @@ namespace ModbusTCP_VS
             // 
             this.label25.AutoSize = true;
             this.label25.ForeColor = System.Drawing.Color.Black;
-            this.label25.Location = new System.Drawing.Point(89, 29);
+            this.label25.Location = new System.Drawing.Point(89, 23);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(83, 20);
             this.label25.TabIndex = 32;
@@ -1370,34 +1374,12 @@ namespace ModbusTCP_VS
             this.tbVarA.Size = new System.Drawing.Size(161, 27);
             this.tbVarA.TabIndex = 1;
             // 
-            // btnStrA
-            // 
-            this.btnStrA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnStrA.ForeColor = System.Drawing.Color.Black;
-            this.btnStrA.Location = new System.Drawing.Point(13, 40);
-            this.btnStrA.Name = "btnStrA";
-            this.btnStrA.Size = new System.Drawing.Size(62, 59);
-            this.btnStrA.TabIndex = 38;
-            this.btnStrA.Text = "Str A";
-            this.btnStrA.UseVisualStyleBackColor = false;
-            // 
-            // btnStrB
-            // 
-            this.btnStrB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnStrB.ForeColor = System.Drawing.Color.Black;
-            this.btnStrB.Location = new System.Drawing.Point(13, 111);
-            this.btnStrB.Name = "btnStrB";
-            this.btnStrB.Size = new System.Drawing.Size(62, 59);
-            this.btnStrB.TabIndex = 39;
-            this.btnStrB.Text = "Str B";
-            this.btnStrB.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(1258, 810);
+            this.ClientSize = new System.Drawing.Size(1276, 968);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox3);
@@ -1405,7 +1387,8 @@ namespace ModbusTCP_VS
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox4);
             this.ForeColor = System.Drawing.Color.Transparent;
-            this.MinimumSize = new System.Drawing.Size(1051, 730);
+            this.MaximumSize = new System.Drawing.Size(1294, 1015);
+            this.MinimumSize = new System.Drawing.Size(700, 600);
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(10);
             this.Text = "Form1";
@@ -1546,8 +1529,7 @@ namespace ModbusTCP_VS
         private System.Windows.Forms.TextBox tbVarB;
         private System.Windows.Forms.CheckBox ckbVarA;
         private System.Windows.Forms.TextBox tbVarA;
-        private System.Windows.Forms.Button btnStrB;
-        private System.Windows.Forms.Button btnStrA;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -7,15 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SocketAsync;
 
 namespace ModbusTCP_VS
 {
     public partial class Form1 : Form
     {
-        ModbusClient mClient = new ModbusClient();
+        SocketServer mServer;
         public Form1()
         {
             InitializeComponent();
+            mServer = new SocketServer();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -25,12 +27,18 @@ namespace ModbusTCP_VS
 
         private void btnConnect_Click(object sender, EventArgs e)
         {
-
+            mServer.StartListeningForIncomingConnection();
         }
 
         private void btnDisconnect_Click(object sender, EventArgs e)
         {
-
+            mServer.StopServer();
         }
+
+        private void btnConvertStrA_Click(object sender, EventArgs e)
+        {
+            mServer.SendToAll(tbStringA.Text.Trim());
+        }
+
     }
 }
