@@ -1,0 +1,13 @@
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\bin\Debug\ModbusTCP_VS.exe.config
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\bin\Debug\ModbusTCP_VS.exe
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\bin\Debug\ModbusTCP_VS.pdb
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\obj\Debug\ModbusTCP_VS.csprojAssemblyReference.cache
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\obj\Debug\ModbusTCP_VS.Form1.resources
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\obj\Debug\ModbusTCP_VS.Properties.Resources.resources
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\obj\Debug\ModbusTCP_VS.csproj.GenerateResource.cache
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\obj\Debug\ModbusTCP_VS.csproj.CoreCompileInputs.cache
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\obj\Debug\ModbusTCP_VS.exe
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\obj\Debug\ModbusTCP_VS.pdb
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\bin\Debug\SocketAsync.dll
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\bin\Debug\SocketAsync.pdb
+C:\Users\Git\ModbusTCP_VS\ModbusTCP_VS\obj\Debug\ModbusTCP_VS.csproj.CopyComplete

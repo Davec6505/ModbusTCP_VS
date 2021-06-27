@@ -1,0 +1,6 @@
+C:\Users\Git\ModbusTCP_VS\SocketAsync\bin\Debug\SocketAsync.dll
+C:\Users\Git\ModbusTCP_VS\SocketAsync\bin\Debug\SocketAsync.pdb
+C:\Users\Git\ModbusTCP_VS\SocketAsync\obj\Debug\SocketAsync.csprojAssemblyReference.cache
+C:\Users\Git\ModbusTCP_VS\SocketAsync\obj\Debug\SocketAsync.csproj.CoreCompileInputs.cache
+C:\Users\Git\ModbusTCP_VS\SocketAsync\obj\Debug\SocketAsync.dll
+C:\Users\Git\ModbusTCP_VS\SocketAsync\obj\Debug\SocketAsync.pdb
